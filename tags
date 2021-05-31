@@ -1,0 +1,357 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+/js/app	public/js/app.js	/^\/******\/ 			"\/js\/app": 0,$/;"	p	class:var.installedChunks
+AppLayout	app/View/Components/AppLayout.php	/^class AppLayout extends Component$/;"	c
+AppServiceProvider	app/Providers/AppServiceProvider.php	/^class AppServiceProvider extends ServiceProvider$/;"	c
+AuthServiceProvider	app/Providers/AuthServiceProvider.php	/^class AuthServiceProvider extends ServiceProvider$/;"	c
+Authenticate	app/Http/Middleware/Authenticate.php	/^class Authenticate extends Middleware$/;"	c
+AuthenticatedSessionController	app/Http/Controllers/Auth/AuthenticatedSessionController.php	/^class AuthenticatedSessionController extends Controller$/;"	c
+AuthenticationTest	tests/Feature/AuthenticationTest.php	/^class AuthenticationTest extends TestCase$/;"	c
+BroadcastServiceProvider	app/Providers/BroadcastServiceProvider.php	/^class BroadcastServiceProvider extends ServiceProvider$/;"	c
+Client	app/Models/Client.php	/^class Client extends Model$/;"	c
+ClientController	app/Http/Controllers/ClientController.php	/^class ClientController extends Controller$/;"	c
+ClientSeeder	database/seeders/ClientSeeder.php	/^class ClientSeeder extends Seeder$/;"	c
+ConfirmablePasswordController	app/Http/Controllers/Auth/ConfirmablePasswordController.php	/^class ConfirmablePasswordController extends Controller$/;"	c
+Controller	app/Http/Controllers/Controller.php	/^class Controller extends BaseController$/;"	c
+CreateClientsTable	database/migrations/2021_05_25_213910_create_clients_table.php	/^class CreateClientsTable extends Migration$/;"	c
+CreateFailedJobsTable	database/migrations/2019_08_19_000000_create_failed_jobs_table.php	/^class CreateFailedJobsTable extends Migration$/;"	c
+CreateLocationsTable	database/migrations/2021_05_26_082232_create_locations_table.php	/^class CreateLocationsTable extends Migration$/;"	c
+CreateMachinesTable	database/migrations/2021_05_26_082328_create_machines_table.php	/^class CreateMachinesTable extends Migration$/;"	c
+CreatePasswordResetsTable	database/migrations/2014_10_12_100000_create_password_resets_table.php	/^class CreatePasswordResetsTable extends Migration$/;"	c
+CreateServiceReportsTable	database/migrations/2021_05_26_082634_create_service_reports_table.php	/^class CreateServiceReportsTable extends Migration$/;"	c
+CreateUsersTable	database/migrations/2014_10_12_000000_create_users_table.php	/^class CreateUsersTable extends Migration$/;"	c
+DashboardController	app/Http/Controllers/DashboardController.php	/^class DashboardController extends Controller$/;"	c
+DatabaseSeeder	database/seeders/DatabaseSeeder.php	/^class DatabaseSeeder extends Seeder$/;"	c
+DeleteLinkButton	app/View/Components/DeleteLinkButton.php	/^class DeleteLinkButton extends Component$/;"	c
+EditLinkButton	app/View/Components/EditLinkButton.php	/^class EditLinkButton extends Component$/;"	c
+EmailVerificationNotificationController	app/Http/Controllers/Auth/EmailVerificationNotificationController.php	/^class EmailVerificationNotificationController extends Controller$/;"	c
+EmailVerificationPromptController	app/Http/Controllers/Auth/EmailVerificationPromptController.php	/^class EmailVerificationPromptController extends Controller$/;"	c
+EmailVerificationTest	tests/Feature/EmailVerificationTest.php	/^class EmailVerificationTest extends TestCase$/;"	c
+EncryptCookies	app/Http/Middleware/EncryptCookies.php	/^class EncryptCookies extends Middleware$/;"	c
+EventServiceProvider	app/Providers/EventServiceProvider.php	/^class EventServiceProvider extends ServiceProvider$/;"	c
+ExampleTest	tests/Feature/ExampleTest.php	/^class ExampleTest extends TestCase$/;"	c
+ExampleTest	tests/Unit/ExampleTest.php	/^class ExampleTest extends TestCase$/;"	c
+FlashMessage	app/View/Components/FlashMessage.php	/^class FlashMessage extends Component$/;"	c
+GuestLayout	app/View/Components/GuestLayout.php	/^class GuestLayout extends Component$/;"	c
+Handler	app/Exceptions/Handler.php	/^class Handler extends ExceptionHandler$/;"	c
+Kernel	app/Console/Kernel.php	/^class Kernel extends ConsoleKernel$/;"	c
+Kernel	app/Http/Kernel.php	/^class Kernel extends HttpKernel$/;"	c
+LARAVEL_START	artisan	/^define('LARAVEL_START', microtime(true));$/;"	d
+LARAVEL_START	public/index.php	/^define('LARAVEL_START', microtime(true));$/;"	d
+LinkButton	app/View/Components/LinkButton.php	/^class LinkButton extends Component$/;"	c
+Location	app/Models/Location.php	/^class Location extends Model$/;"	c
+LocationActions	app/View/Components/LocationActions.php	/^class LocationActions extends Component$/;"	c
+LocationController	app/Http/Controllers/LocationController.php	/^class LocationController extends Controller$/;"	c
+LocationSeeder	database/seeders/LocationSeeder.php	/^class LocationSeeder extends Seeder$/;"	c
+LoginRequest	app/Http/Requests/Auth/LoginRequest.php	/^class LoginRequest extends FormRequest$/;"	c
+Machine	app/Models/Machine.php	/^class Machine extends Model$/;"	c
+MachineActions	app/View/Components/MachineActions.php	/^class MachineActions extends Component$/;"	c
+MachineController	app/Http/Controllers/MachineController.php	/^class MachineController extends Controller$/;"	c
+MachineSeeder	database/seeders/MachineSeeder.php	/^class MachineSeeder extends Seeder$/;"	c
+NewPasswordController	app/Http/Controllers/Auth/NewPasswordController.php	/^class NewPasswordController extends Controller$/;"	c
+PasswordConfirmationTest	tests/Feature/PasswordConfirmationTest.php	/^class PasswordConfirmationTest extends TestCase$/;"	c
+PasswordResetLinkController	app/Http/Controllers/Auth/PasswordResetLinkController.php	/^class PasswordResetLinkController extends Controller$/;"	c
+PasswordResetTest	tests/Feature/PasswordResetTest.php	/^class PasswordResetTest extends TestCase$/;"	c
+PreventRequestsDuringMaintenance	app/Http/Middleware/PreventRequestsDuringMaintenance.php	/^class PreventRequestsDuringMaintenance extends Middleware$/;"	c
+PrintServiceReportButton	app/View/Components/PrintServiceReportButton.php	/^class PrintServiceReportButton extends Component$/;"	c
+RedirectIfAuthenticated	app/Http/Middleware/RedirectIfAuthenticated.php	/^class RedirectIfAuthenticated$/;"	c
+RegisteredUserController	app/Http/Controllers/Auth/RegisteredUserController.php	/^class RegisteredUserController extends Controller$/;"	c
+RegistrationTest	tests/Feature/RegistrationTest.php	/^class RegistrationTest extends TestCase$/;"	c
+RouteServiceProvider	app/Providers/RouteServiceProvider.php	/^class RouteServiceProvider extends ServiceProvider$/;"	c
+ServiceReport	app/Models/ServiceReport.php	/^class ServiceReport extends Model$/;"	c
+ServiceReportController	app/Http/Controllers/ServiceReportController.php	/^class ServiceReportController extends Controller$/;"	c
+ServiceReportSeeder	database/seeders/ServiceReportSeeder.php	/^class ServiceReportSeeder extends Seeder$/;"	c
+ShowLinkButton	app/View/Components/ShowLinkButton.php	/^class ShowLinkButton extends Component$/;"	c
+StoreClientRequest	app/Http/Requests/StoreClientRequest.php	/^class StoreClientRequest extends FormRequest$/;"	c
+StoreLocationRequest	app/Http/Requests/StoreLocationRequest.php	/^class StoreLocationRequest extends FormRequest$/;"	c
+StoreMachineRequest	app/Http/Requests/StoreMachineRequest.php	/^class StoreMachineRequest extends FormRequest$/;"	c
+StoreServiceReportRequest	app/Http/Requests/StoreServiceReportRequest.php	/^class StoreServiceReportRequest extends FormRequest$/;"	c
+SubmitButton	app/View/Components/SubmitButton.php	/^class SubmitButton extends Component$/;"	c
+Table	app/View/Components/Table.php	/^class Table extends Component$/;"	c
+TestCase	tests/TestCase.php	/^abstract class TestCase extends BaseTestCase$/;"	c
+TextInput	app/View/Components/TextInput.php	/^class TextInput extends Component$/;"	c
+TrimStrings	app/Http/Middleware/TrimStrings.php	/^class TrimStrings extends Middleware$/;"	c
+TrustHosts	app/Http/Middleware/TrustHosts.php	/^class TrustHosts extends Middleware$/;"	c
+TrustProxies	app/Http/Middleware/TrustProxies.php	/^class TrustProxies extends Middleware$/;"	c
+UpdateLocationRequest	app/Http/Requests/UpdateLocationRequest.php	/^class UpdateLocationRequest extends FormRequest$/;"	c
+UpdateMachineRequest	app/Http/Requests/UpdateMachineRequest.php	/^class UpdateMachineRequest extends FormRequest$/;"	c
+User	app/Models/User.php	/^class User extends Authenticatable$/;"	c
+UserFactory	database/factories/UserFactory.php	/^class UserFactory extends Factory$/;"	c
+UserSeeder	database/seeders/UserSeeder.php	/^class UserSeeder extends Seeder$/;"	c
+VerifyCsrfToken	app/Http/Middleware/VerifyCsrfToken.php	/^class VerifyCsrfToken extends Middleware$/;"	c
+VerifyEmailController	app/Http/Controllers/Auth/VerifyEmailController.php	/^class VerifyEmailController extends Controller$/;"	c
+__construct	app/View/Components/DeleteLinkButton.php	/^    public function __construct($route = '#')$/;"	f
+__construct	app/View/Components/EditLinkButton.php	/^    public function __construct($href = '#')$/;"	f
+__construct	app/View/Components/FlashMessage.php	/^    public function __construct()$/;"	f
+__construct	app/View/Components/LinkButton.php	/^    public function __construct($href = '#')$/;"	f
+__construct	app/View/Components/LocationActions.php	/^    public function __construct($locationid = "", $isdefault = false)$/;"	f
+__construct	app/View/Components/MachineActions.php	/^    public function __construct($machine)$/;"	f
+__construct	app/View/Components/PrintServiceReportButton.php	/^  public function __construct($reportid)$/;"	f
+__construct	app/View/Components/ShowLinkButton.php	/^    public function __construct($href = '#')$/;"	f
+__construct	app/View/Components/SubmitButton.php	/^    public function __construct()$/;"	f
+__construct	app/View/Components/Table.php	/^    public function __construct($columns = [])$/;"	f
+__construct	app/View/Components/TextInput.php	/^  public function __construct($/;"	f
+__invoke	app/Http/Controllers/Auth/EmailVerificationPromptController.php	/^    public function __invoke(Request $request)$/;"	f
+__invoke	app/Http/Controllers/Auth/VerifyEmailController.php	/^    public function __invoke(EmailVerificationRequest $request)$/;"	f
+__webpack_module_cache__	public/js/app.js	/^\/******\/ 	var __webpack_module_cache__ = {};$/;"	v
+__webpack_require__	public/js/app.js	/^\/******\/ 	function __webpack_require__(moduleId) {$/;"	f
+_columns	app/View/Components/Table.php	/^        $this->_columns = $columns;$/;"	v
+_columns	app/View/Components/Table.php	/^  public $_columns;$/;"	v
+_href	app/View/Components/EditLinkButton.php	/^        $this->_href = $href;$/;"	v
+_href	app/View/Components/EditLinkButton.php	/^  public $_href;$/;"	v
+_href	app/View/Components/ShowLinkButton.php	/^        $this->_href = $href;$/;"	v
+_href	app/View/Components/ShowLinkButton.php	/^  public $_href;$/;"	v
+_id	app/View/Components/TextInput.php	/^      $this->_id = $id;$/;"	v
+_id	app/View/Components/TextInput.php	/^  public $_id;$/;"	v
+_is_default	app/View/Components/LocationActions.php	/^        $this->_is_default = $isdefault;$/;"	v
+_is_default	app/View/Components/LocationActions.php	/^  public $_is_default;$/;"	v
+_label	app/View/Components/TextInput.php	/^      $this->_label = $label;$/;"	v
+_label	app/View/Components/TextInput.php	/^  public $_label;$/;"	v
+_location_id	app/View/Components/LocationActions.php	/^        $this->_location_id = $locationid;$/;"	v
+_location_id	app/View/Components/LocationActions.php	/^  public $_location_id;$/;"	v
+_machine	app/View/Components/MachineActions.php	/^        $this->_machine = $machine;$/;"	v
+_machine	app/View/Components/MachineActions.php	/^  public $_machine;$/;"	v
+_placeholder	app/View/Components/TextInput.php	/^      $this->_placeholder = $placeholder;$/;"	v
+_placeholder	app/View/Components/TextInput.php	/^  public $_placeholder;$/;"	v
+_report_id	app/View/Components/PrintServiceReportButton.php	/^    $this->_report_id = $reportid;$/;"	v
+_report_id	app/View/Components/PrintServiceReportButton.php	/^  public $_report_id;$/;"	v
+_required	app/View/Components/TextInput.php	/^      $this->_required = $required;$/;"	v
+_required	app/View/Components/TextInput.php	/^  public $_required;$/;"	v
+_route	app/View/Components/DeleteLinkButton.php	/^        $this->_route = $route;$/;"	v
+_route	app/View/Components/DeleteLinkButton.php	/^  public $_route;$/;"	v
+_value	app/View/Components/TextInput.php	/^      $this->_value = $value;$/;"	v
+_value	app/View/Components/TextInput.php	/^  public $_value;$/;"	v
+alignmentClasses	resources/views/components/dropdown.blade.php	/^        $alignmentClasses = 'origin-top';$/;"	v
+alignmentClasses	resources/views/components/dropdown.blade.php	/^        $alignmentClasses = 'origin-top-left left-0';$/;"	v
+alignmentClasses	resources/views/components/dropdown.blade.php	/^        $alignmentClasses = 'origin-top-right right-0';$/;"	v
+alignmentClasses	storage/framework/views/7a081f3581f99bceb4507c51c2957d6ad4f906f0.php	/^        $alignmentClasses = 'origin-top';$/;"	v
+alignmentClasses	storage/framework/views/7a081f3581f99bceb4507c51c2957d6ad4f906f0.php	/^        $alignmentClasses = 'origin-top-left left-0';$/;"	v
+alignmentClasses	storage/framework/views/7a081f3581f99bceb4507c51c2957d6ad4f906f0.php	/^        $alignmentClasses = 'origin-top-right right-0';$/;"	v
+app	artisan	/^$app = require_once __DIR__.'\/bootstrap\/app.php';$/;"	v
+app	bootstrap/app.php	/^$app = new Illuminate\\Foundation\\Application($/;"	v
+app	public/index.php	/^$app = require_once __DIR__.'\/..\/bootstrap\/app.php';$/;"	v
+app	tests/CreatesApplication.php	/^        $app = require __DIR__.'\/..\/bootstrap\/app.php';$/;"	v
+authenticate	app/Http/Requests/Auth/LoginRequest.php	/^    public function authenticate()$/;"	f
+authorize	app/Http/Requests/Auth/LoginRequest.php	/^    public function authorize()$/;"	f
+authorize	app/Http/Requests/StoreClientRequest.php	/^    public function authorize()$/;"	f
+authorize	app/Http/Requests/StoreLocationRequest.php	/^    public function authorize()$/;"	f
+authorize	app/Http/Requests/StoreMachineRequest.php	/^    public function authorize()$/;"	f
+authorize	app/Http/Requests/StoreServiceReportRequest.php	/^  public function authorize()$/;"	f
+authorize	app/Http/Requests/UpdateLocationRequest.php	/^  public function authorize()$/;"	f
+authorize	app/Http/Requests/UpdateMachineRequest.php	/^    public function authorize()$/;"	f
+boot	app/Providers/AppServiceProvider.php	/^    public function boot()$/;"	f
+boot	app/Providers/AuthServiceProvider.php	/^    public function boot()$/;"	f
+boot	app/Providers/BroadcastServiceProvider.php	/^    public function boot()$/;"	f
+boot	app/Providers/EventServiceProvider.php	/^    public function boot()$/;"	f
+boot	app/Providers/RouteServiceProvider.php	/^    public function boot()$/;"	f
+brand	database/seeders/MachineSeeder.php	/^      $brand = array_rand($this->machines);$/;"	v
+carbon	database/seeders/MachineSeeder.php	/^    $carbon = \\Carbon\\Carbon::now();$/;"	v
+casts	app/Models/User.php	/^    protected $casts = [$/;"	v
+classes	resources/views/components/nav-link.blade.php	/^$classes = ($active ?? false)$/;"	v
+classes	resources/views/components/responsive-nav-link.blade.php	/^$classes = ($active ?? false)$/;"	v
+classes	storage/framework/views/0f1f26020506cf6a1490e666565dcc69c964c56f.php	/^$classes = ($active ?? false)$/;"	v
+classes	storage/framework/views/98bc2e8b68fdf83f199ead1f1dd9b88fefdde3b7.php	/^$classes = ($active ?? false)$/;"	v
+client	app/Http/Controllers/ClientController.php	/^      $client = Client::create($request->only(['phone', 'name', 'email']));$/;"	v
+client	app/Models/Location.php	/^    public function client() {$/;"	f
+client	app/Models/Machine.php	/^    public function client() {$/;"	f
+clients	app/Http/Controllers/ClientController.php	/^      $clients = Client::orderBy('name', 'ASC')$/;"	v
+clients	database/seeders/LocationSeeder.php	/^    $clients = Client::all();$/;"	v
+commands	app/Console/Kernel.php	/^    protected $commands = [$/;"	v
+commands	app/Console/Kernel.php	/^    protected function commands()$/;"	f
+configureRateLimiting	app/Providers/RouteServiceProvider.php	/^    protected function configureRateLimiting()$/;"	f
+create	app/Http/Controllers/Auth/AuthenticatedSessionController.php	/^    public function create()$/;"	f
+create	app/Http/Controllers/Auth/NewPasswordController.php	/^    public function create(Request $request)$/;"	f
+create	app/Http/Controllers/Auth/PasswordResetLinkController.php	/^    public function create()$/;"	f
+create	app/Http/Controllers/Auth/RegisteredUserController.php	/^    public function create()$/;"	f
+create	app/Http/Controllers/ClientController.php	/^    public function create()$/;"	f
+create	app/Http/Controllers/LocationController.php	/^  public function create(Client $client)$/;"	f
+create	app/Http/Controllers/MachineController.php	/^  public function create(Location $location)$/;"	f
+create	app/Http/Controllers/ServiceReportController.php	/^  public function create(Machine $machine)$/;"	f
+createApplication	tests/CreatesApplication.php	/^    public function createApplication()$/;"	f
+css/app	public/js/app.js	/^\/******\/ 			"css\/app": 0$/;"	p	class:var.installedChunks
+date_from	app/Http/Controllers/DashboardController.php	/^    $date_from = Carbon::now()->startOfWeek();$/;"	v
+date_to	app/Http/Controllers/DashboardController.php	/^    $date_to = $date_from->copy()->addDays(12)->subSecond();$/;"	v
+default_location	app/Http/Controllers/ClientController.php	/^      $default_location = $client->locations()->isDefault()->first();$/;"	v
+definition	database/factories/UserFactory.php	/^    public function definition()$/;"	f
+destroy	app/Http/Controllers/Auth/AuthenticatedSessionController.php	/^    public function destroy(Request $request)$/;"	f
+destroy	app/Http/Controllers/ClientController.php	/^    public function destroy(Client $client)$/;"	f
+destroy	app/Http/Controllers/LocationController.php	/^  public function destroy(Location $location)$/;"	f
+destroy	app/Http/Controllers/MachineController.php	/^  public function destroy(Machine $machine)$/;"	f
+destroy	app/Http/Controllers/ServiceReportController.php	/^  public function destroy(ServiceReport $serviceReport)$/;"	f
+dontFlash	app/Exceptions/Handler.php	/^    protected $dontFlash = [$/;"	v
+dontReport	app/Exceptions/Handler.php	/^    protected $dontReport = [$/;"	v
+down	database/migrations/2014_10_12_000000_create_users_table.php	/^    public function down()$/;"	f
+down	database/migrations/2014_10_12_100000_create_password_resets_table.php	/^    public function down()$/;"	f
+down	database/migrations/2019_08_19_000000_create_failed_jobs_table.php	/^    public function down()$/;"	f
+down	database/migrations/2021_05_25_213910_create_clients_table.php	/^    public function down()$/;"	f
+down	database/migrations/2021_05_26_082232_create_locations_table.php	/^    public function down()$/;"	f
+down	database/migrations/2021_05_26_082328_create_machines_table.php	/^    public function down()$/;"	f
+down	database/migrations/2021_05_26_082634_create_service_reports_table.php	/^    public function down()$/;"	f
+edit	app/Http/Controllers/ClientController.php	/^    public function edit(Client $client)$/;"	f
+edit	app/Http/Controllers/LocationController.php	/^  public function edit(Location $location)$/;"	f
+edit	app/Http/Controllers/MachineController.php	/^  public function edit(Machine $machine)$/;"	f
+edit	app/Http/Controllers/ServiceReportController.php	/^  public function edit(ServiceReport $serviceReport)$/;"	f
+ensureIsNotRateLimited	app/Http/Requests/Auth/LoginRequest.php	/^    public function ensureIsNotRateLimited()$/;"	f
+except	app/Http/Middleware/EncryptCookies.php	/^    protected $except = [$/;"	v
+except	app/Http/Middleware/PreventRequestsDuringMaintenance.php	/^    protected $except = [$/;"	v
+except	app/Http/Middleware/TrimStrings.php	/^    protected $except = [$/;"	v
+except	app/Http/Middleware/VerifyCsrfToken.php	/^    protected $except = [$/;"	v
+faker	database/seeders/ClientSeeder.php	/^    $faker = \\Faker\\Factory::create();$/;"	v
+faker	database/seeders/LocationSeeder.php	/^    $faker = \\Faker\\Factory::create();$/;"	v
+faker	database/seeders/MachineSeeder.php	/^    $faker = \\Faker\\Factory::create();$/;"	v
+fillable	app/Models/Client.php	/^    protected $fillable = [$/;"	v
+fillable	app/Models/Location.php	/^    protected $fillable = [$/;"	v
+fillable	app/Models/Machine.php	/^    protected $fillable = [$/;"	v
+fillable	app/Models/ServiceReport.php	/^    protected $fillable = [$/;"	v
+fillable	app/Models/User.php	/^    protected $fillable = [$/;"	v
+getDurationAttribute	app/Models/ServiceReport.php	/^    public function getDurationAttribute($value) {$/;"	f
+guards	app/Http/Middleware/RedirectIfAuthenticated.php	/^        $guards = empty($guards) ? [null] : $guards;$/;"	v
+h	app/Models/ServiceReport.php	/^      $h = (int)($value \/ 60);$/;"	v
+handle	app/Http/Middleware/RedirectIfAuthenticated.php	/^    public function handle(Request $request, Closure $next, ...$guards)$/;"	f
+headers	app/Http/Middleware/TrustProxies.php	/^    protected $headers = Request::HEADER_X_FORWARDED_FOR | Request::HEADER_X_FORWARDED_HOST | Request::HEADER_X_FORWARDED_PORT | Request::HEADER_X_FORWARDED_PROTO | Request::HEADER_X_FORWARDED_AWS_ELB;$/;"	v
+hidden	app/Models/User.php	/^    protected $hidden = [$/;"	v
+hosts	app/Http/Middleware/TrustHosts.php	/^    public function hosts()$/;"	f
+href	app/View/Components/LinkButton.php	/^        $this->href = $href;$/;"	v
+href	app/View/Components/LinkButton.php	/^    public $href;$/;"	v
+id	app/View/Components/TextInput.php	/^    $id = 'name',$/;"	v
+index	app/Http/Controllers/ClientController.php	/^    public function index()$/;"	f
+index	app/Http/Controllers/DashboardController.php	/^  public function index() {$/;"	f
+index	app/Http/Controllers/MachineController.php	/^  public function index()$/;"	f
+index	app/Http/Controllers/ServiceReportController.php	/^  public function index()$/;"	f
+input	artisan	/^    $input = new Symfony\\Component\\Console\\Input\\ArgvInput,$/;"	v
+kernel	artisan	/^$kernel = $app->make(Illuminate\\Contracts\\Console\\Kernel::class);$/;"	v
+kernel	public/index.php	/^$kernel = $app->make(Kernel::class);$/;"	v
+label	app/View/Components/TextInput.php	/^    $label = 'Name',$/;"	v
+listen	app/Providers/EventServiceProvider.php	/^    protected $listen = [$/;"	v
+location	app/Http/Controllers/ClientController.php	/^      $location = Location::create($request->only(['address', 'zip']));$/;"	v
+location	app/Http/Controllers/MachineController.php	/^    $location = Location::find($request->location_id);$/;"	v
+location	app/Models/Machine.php	/^    public function location() {$/;"	f
+locations	app/Models/Client.php	/^    public function locations() {$/;"	f
+locations	database/seeders/MachineSeeder.php	/^    $locations = Location::all();$/;"	v
+m	app/Models/ServiceReport.php	/^      $m = $value % 60;$/;"	v
+m	database/seeders/MachineSeeder.php	/^      $m = $this->machines[$brand];$/;"	v
+machine	app/Http/Controllers/MachineController.php	/^    $machine = Machine::create($/;"	v
+machine	app/Http/Controllers/ServiceReportController.php	/^    $machine = Machine::find($request->machine_id);$/;"	v
+machines	app/Models/Client.php	/^    public function machines() {$/;"	f
+machines	database/seeders/MachineSeeder.php	/^  protected $machines = [$/;"	v
+middleware	app/Http/Kernel.php	/^    protected $middleware = [$/;"	v
+middlewareGroups	app/Http/Kernel.php	/^    protected $middlewareGroups = [$/;"	v
+model	database/factories/UserFactory.php	/^    protected $model = User::class;$/;"	v
+next_service_date	app/Http/Controllers/ServiceReportController.php	/^    $next_service_date = (\\Carbon\\Carbon::now())$/;"	v
+placeholder	app/View/Components/TextInput.php	/^    $placeholder = 'Placeholder text',$/;"	v
+policies	app/Providers/AuthServiceProvider.php	/^    protected $policies = [$/;"	v
+proxies	app/Http/Middleware/TrustProxies.php	/^    protected $proxies;$/;"	v
+purge	tailwind.config.js	/^    purge: [$/;"	p	class:module.exports
+redirectTo	app/Http/Middleware/Authenticate.php	/^    protected function redirectTo($request)$/;"	f
+register	app/Exceptions/Handler.php	/^    public function register()$/;"	f
+register	app/Providers/AppServiceProvider.php	/^    public function register()$/;"	f
+render	app/View/Components/AppLayout.php	/^    public function render()$/;"	f
+render	app/View/Components/DeleteLinkButton.php	/^    public function render()$/;"	f
+render	app/View/Components/EditLinkButton.php	/^    public function render()$/;"	f
+render	app/View/Components/FlashMessage.php	/^    public function render()$/;"	f
+render	app/View/Components/GuestLayout.php	/^    public function render()$/;"	f
+render	app/View/Components/LinkButton.php	/^    public function render()$/;"	f
+render	app/View/Components/LocationActions.php	/^    public function render()$/;"	f
+render	app/View/Components/MachineActions.php	/^    public function render()$/;"	f
+render	app/View/Components/PrintServiceReportButton.php	/^  public function render()$/;"	f
+render	app/View/Components/ShowLinkButton.php	/^    public function render()$/;"	f
+render	app/View/Components/SubmitButton.php	/^    public function render()$/;"	f
+render	app/View/Components/Table.php	/^    public function render()$/;"	f
+render	app/View/Components/TextInput.php	/^    public function render()$/;"	f
+request	public/index.php	/^    $request = Request::capture()$/;"	v
+required	app/View/Components/TextInput.php	/^    $required = false,$/;"	v
+response	public/index.php	/^$response = tap($kernel->handle($/;"	v
+response	tests/Feature/AuthenticationTest.php	/^        $response = $this->get('\/login');$/;"	v
+response	tests/Feature/AuthenticationTest.php	/^        $response = $this->post('\/login', [$/;"	v
+response	tests/Feature/EmailVerificationTest.php	/^        $response = $this->actingAs($user)->get($verificationUrl);$/;"	v
+response	tests/Feature/EmailVerificationTest.php	/^        $response = $this->actingAs($user)->get('\/verify-email');$/;"	v
+response	tests/Feature/ExampleTest.php	/^        $response = $this->get('\/');$/;"	v
+response	tests/Feature/PasswordConfirmationTest.php	/^        $response = $this->actingAs($user)->get('\/confirm-password');$/;"	v
+response	tests/Feature/PasswordConfirmationTest.php	/^        $response = $this->actingAs($user)->post('\/confirm-password', [$/;"	v
+response	tests/Feature/PasswordResetTest.php	/^            $response = $this->get('\/reset-password\/'.$notification->token);$/;"	v
+response	tests/Feature/PasswordResetTest.php	/^            $response = $this->post('\/reset-password', [$/;"	v
+response	tests/Feature/PasswordResetTest.php	/^        $response = $this->get('\/forgot-password');$/;"	v
+response	tests/Feature/RegistrationTest.php	/^        $response = $this->get('\/register');$/;"	v
+response	tests/Feature/RegistrationTest.php	/^        $response = $this->post('\/register', [$/;"	v
+routeMiddleware	app/Http/Kernel.php	/^    protected $routeMiddleware = [$/;"	v
+rules	app/Http/Requests/Auth/LoginRequest.php	/^    public function rules()$/;"	f
+rules	app/Http/Requests/StoreClientRequest.php	/^    public function rules()$/;"	f
+rules	app/Http/Requests/StoreLocationRequest.php	/^    public function rules()$/;"	f
+rules	app/Http/Requests/StoreMachineRequest.php	/^    public function rules()$/;"	f
+rules	app/Http/Requests/StoreServiceReportRequest.php	/^  public function rules()$/;"	f
+rules	app/Http/Requests/UpdateLocationRequest.php	/^  public function rules()$/;"	f
+rules	app/Http/Requests/UpdateMachineRequest.php	/^    public function rules()$/;"	f
+run	database/seeders/ClientSeeder.php	/^  public function run()$/;"	f
+run	database/seeders/DatabaseSeeder.php	/^    public function run()$/;"	f
+run	database/seeders/LocationSeeder.php	/^  public function run()$/;"	f
+run	database/seeders/MachineSeeder.php	/^  public function run()$/;"	f
+run	database/seeders/ServiceReportSeeder.php	/^    public function run()$/;"	f
+run	database/seeders/UserSeeder.php	/^    public function run()$/;"	f
+schedule	app/Console/Kernel.php	/^    protected function schedule(Schedule $schedule)$/;"	f
+scopeIsDefault	app/Models/Location.php	/^    public function scopeIsDefault($query) {$/;"	f
+seconds	app/Http/Requests/Auth/LoginRequest.php	/^        $seconds = RateLimiter::availableIn($this->throttleKey());$/;"	v
+service_runs	app/Http/Controllers/DashboardController.php	/^    $service_runs = Machine::whereBetween('next_service', [$date_from, $date_to])$/;"	v
+services	app/Models/Machine.php	/^    public function services() {$/;"	f
+show	app/Http/Controllers/Auth/ConfirmablePasswordController.php	/^    public function show()$/;"	f
+show	app/Http/Controllers/ClientController.php	/^    public function show(Client $client)$/;"	f
+show	app/Http/Controllers/LocationController.php	/^  public function show(Location $location)$/;"	f
+show	app/Http/Controllers/MachineController.php	/^  public function show(Machine $machine)$/;"	f
+show	app/Http/Controllers/ServiceReportController.php	/^  public function show(ServiceReport $serviceReport)$/;"	f
+status	app/Http/Controllers/Auth/NewPasswordController.php	/^        $status = Password::reset($/;"	v
+status	app/Http/Controllers/Auth/PasswordResetLinkController.php	/^        $status = Password::sendResetLink($/;"	v
+status	artisan	/^$status = $kernel->handle($/;"	v
+store	app/Http/Controllers/Auth/AuthenticatedSessionController.php	/^    public function store(LoginRequest $request)$/;"	f
+store	app/Http/Controllers/Auth/ConfirmablePasswordController.php	/^    public function store(Request $request)$/;"	f
+store	app/Http/Controllers/Auth/EmailVerificationNotificationController.php	/^    public function store(Request $request)$/;"	f
+store	app/Http/Controllers/Auth/NewPasswordController.php	/^    public function store(Request $request)$/;"	f
+store	app/Http/Controllers/Auth/PasswordResetLinkController.php	/^    public function store(Request $request)$/;"	f
+store	app/Http/Controllers/Auth/RegisteredUserController.php	/^    public function store(Request $request)$/;"	f
+store	app/Http/Controllers/ClientController.php	/^    public function store(StoreClientRequest $request)$/;"	f
+store	app/Http/Controllers/LocationController.php	/^  public function store(StoreLocationRequest $request)$/;"	f
+store	app/Http/Controllers/MachineController.php	/^  public function store(StoreMachineRequest $request)$/;"	f
+store	app/Http/Controllers/ServiceReportController.php	/^  public function store(StoreServiceReportRequest $request)$/;"	f
+test_confirm_password_screen_can_be_rendered	tests/Feature/PasswordConfirmationTest.php	/^    public function test_confirm_password_screen_can_be_rendered()$/;"	f
+test_email_can_be_verified	tests/Feature/EmailVerificationTest.php	/^    public function test_email_can_be_verified()$/;"	f
+test_email_is_not_verified_with_invalid_hash	tests/Feature/EmailVerificationTest.php	/^    public function test_email_is_not_verified_with_invalid_hash()$/;"	f
+test_email_verification_screen_can_be_rendered	tests/Feature/EmailVerificationTest.php	/^    public function test_email_verification_screen_can_be_rendered()$/;"	f
+test_example	tests/Feature/ExampleTest.php	/^    public function test_example()$/;"	f
+test_example	tests/Unit/ExampleTest.php	/^    public function test_example()$/;"	f
+test_login_screen_can_be_rendered	tests/Feature/AuthenticationTest.php	/^    public function test_login_screen_can_be_rendered()$/;"	f
+test_new_users_can_register	tests/Feature/RegistrationTest.php	/^    public function test_new_users_can_register()$/;"	f
+test_password_can_be_confirmed	tests/Feature/PasswordConfirmationTest.php	/^    public function test_password_can_be_confirmed()$/;"	f
+test_password_can_be_reset_with_valid_token	tests/Feature/PasswordResetTest.php	/^    public function test_password_can_be_reset_with_valid_token()$/;"	f
+test_password_is_not_confirmed_with_invalid_password	tests/Feature/PasswordConfirmationTest.php	/^    public function test_password_is_not_confirmed_with_invalid_password()$/;"	f
+test_registration_screen_can_be_rendered	tests/Feature/RegistrationTest.php	/^    public function test_registration_screen_can_be_rendered()$/;"	f
+test_reset_password_link_can_be_requested	tests/Feature/PasswordResetTest.php	/^    public function test_reset_password_link_can_be_requested()$/;"	f
+test_reset_password_link_screen_can_be_rendered	tests/Feature/PasswordResetTest.php	/^    public function test_reset_password_link_screen_can_be_rendered()$/;"	f
+test_reset_password_screen_can_be_rendered	tests/Feature/PasswordResetTest.php	/^    public function test_reset_password_screen_can_be_rendered()$/;"	f
+test_users_can_authenticate_using_the_login_screen	tests/Feature/AuthenticationTest.php	/^    public function test_users_can_authenticate_using_the_login_screen()$/;"	f
+test_users_can_not_authenticate_with_invalid_password	tests/Feature/AuthenticationTest.php	/^    public function test_users_can_not_authenticate_with_invalid_password()$/;"	f
+throttleKey	app/Http/Requests/Auth/LoginRequest.php	/^    public function throttleKey()$/;"	f
+unverified	database/factories/UserFactory.php	/^    public function unverified()$/;"	f
+up	database/migrations/2014_10_12_000000_create_users_table.php	/^    public function up()$/;"	f
+up	database/migrations/2014_10_12_100000_create_password_resets_table.php	/^    public function up()$/;"	f
+up	database/migrations/2019_08_19_000000_create_failed_jobs_table.php	/^    public function up()$/;"	f
+up	database/migrations/2021_05_25_213910_create_clients_table.php	/^    public function up()$/;"	f
+up	database/migrations/2021_05_26_082232_create_locations_table.php	/^    public function up()$/;"	f
+up	database/migrations/2021_05_26_082328_create_machines_table.php	/^    public function up()$/;"	f
+up	database/migrations/2021_05_26_082634_create_service_reports_table.php	/^    public function up()$/;"	f
+update	app/Http/Controllers/ClientController.php	/^    public function update(Request $request, Client $client)$/;"	f
+update	app/Http/Controllers/LocationController.php	/^  public function update(UpdateLocationRequest $request, Location $location)$/;"	f
+update	app/Http/Controllers/MachineController.php	/^  public function update(StoreMachineRequest $request, Machine $machine)$/;"	f
+update	app/Http/Controllers/ServiceReportController.php	/^  public function update(Request $request, ServiceReport $serviceReport)$/;"	f
+uri	server.php	/^$uri = urldecode($/;"	v
+user	app/Http/Controllers/Auth/RegisteredUserController.php	/^        $user = User::create([$/;"	v
+user	tests/Feature/AuthenticationTest.php	/^        $user = User::factory()->create();$/;"	v
+user	tests/Feature/EmailVerificationTest.php	/^        $user = User::factory()->create([$/;"	v
+user	tests/Feature/PasswordConfirmationTest.php	/^        $user = User::factory()->create();$/;"	v
+user	tests/Feature/PasswordResetTest.php	/^        $user = User::factory()->create();$/;"	v
+validated	app/Http/Controllers/MachineController.php	/^    $validated = $request->validated();$/;"	v
+value	app/View/Components/TextInput.php	/^    $value = ''$/;"	v
+verificationUrl	tests/Feature/EmailVerificationTest.php	/^        $verificationUrl = URL::temporarySignedRoute($/;"	v
+width	resources/views/components/dropdown.blade.php	/^        $width = 'w-48';$/;"	v
+width	storage/framework/views/7a081f3581f99bceb4507c51c2957d6ad4f906f0.php	/^        $width = 'w-48';$/;"	v
