@@ -36,7 +36,14 @@
                 </p>
                 <p class="text-sm">({{ $machine->serial_number }})</p>
               </td>
-              <td class="p-4">{{ $machine->next_service }}</td>
+              @if ($machine->next_service < $today)
+              <td class="p-4 text-red-500">
+                {{ $machine->next_service }}
+                  <p class="text-sm">{{ __('Missed run') }}</p>
+              </td>
+              @else
+                <td class="p-4">{{ $machine->next_service }}</td>
+              @endif
               <td class="p-4">
                 <x-link-button :href="'/#'">
                 Print

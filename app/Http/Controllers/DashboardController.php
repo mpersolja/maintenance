@@ -9,7 +9,8 @@ use Illuminate\Support\Facades\DB;
 class DashboardController extends Controller
 {
   public function index() {
-    $date_from = Carbon::now()->startOfWeek();
+    $today = Carbon::today();
+    $date_from = $today->copy()->startOfWeek();
     $date_to = $date_from->copy()->addDays(12)->subSecond();
 
     $service_runs = Machine::whereBetween('next_service', [$date_from, $date_to])
@@ -18,7 +19,7 @@ class DashboardController extends Controller
       ->get();
 
     return view('dashboard')->with(
-      compact('date_from', 'date_to', 'service_runs')
+      compact('date_from', 'date_to', 'service_runs', 'today')
     );
   }
 }
